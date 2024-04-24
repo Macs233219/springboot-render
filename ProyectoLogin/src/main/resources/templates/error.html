@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+    <h1 th:text="${authenticated}"></h1>
+    <p>No se pudo iniciar sesión. Inténtelo de nuevo.</p>
+    <a th:href="@{/}">Volver</a>
+</body>
+</html>
